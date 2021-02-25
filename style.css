@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Ovo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+    --webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    min-height: 100vh;
+    background-image: url("Page-Turner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1152px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #553c9a;
+    color: white;
+    padding: 1rem 0;
+}
+
+section.input {
+    padding-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    color: white;
+    font-weight: 900;
+}
+
+.form-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.input-wrap {
+    display: flex;
+    align-items: center;
+    border: solid 1px #ddd;
+    margin-top: 20px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 400px;
+    outline: none;
+}
+
+button {
+    background-color: #553c9a;
+    color: white;
+    height: 100%;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.loading {
+    font-size: large;
+    font-weight: 900;
+    display: none;
+}
+
+section.data {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.def {
+    font-size: 20px;
+    color: white;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.not-found {
+    padding: 25px;
+}
+.suggested {
+    background: #b794f4;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.audio {
+    margin-top: 20px;
+}
