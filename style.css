@@ -10,9 +10,7 @@
 body {
     font-family: 'Mulish', sans-serif;
     min-height: 100vh;
-    background-image: url("Page-Turner.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
 
 .container {
@@ -48,7 +46,6 @@ h2 {
 .input-wrap {
     display: flex;
     align-items: center;
-    border: solid 1px #ddd;
     margin-top: 20px;
 }
 
@@ -61,11 +58,12 @@ input {
 }
 
 button {
-    background-color: #553c9a;
+    background-color: #00d2ff;
     color: white;
     height: 100%;
     padding: 0 20px;
     cursor: pointer;
+    border: none;
 }
 
 .loading {
@@ -92,8 +90,8 @@ section.data {
     padding: 25px;
 }
 .suggested {
-    background: #b794f4;
-    color: white;
+    background: #ffffff;
+    color: black;
     padding: 2px 10px;
     border-radius: 4px;
     margin-right: 10px;
