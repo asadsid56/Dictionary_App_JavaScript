@@ -13,10 +13,8 @@ searchBtn.addEventListener('click',function (e) {
     notfound.innerText = ""; 
     defBox.innerText = ""; 
 
-    
-
    // Get Input Value
-    let word = input.value
+    let word = input.value; 
     // If input is empty show a msg
     if (word === '') {
         alert('Please write something in input')
@@ -53,10 +51,10 @@ async function getData(word) {
 
         // Create a span
         data.forEach((element) => {
-            notfound.insertAdjacentHTML("beforeend",`<span class="suggested">${element}</span>`)
-        })
+            notfound.insertAdjacentHTML("beforeend",`<span class="suggested">${element}</span>`);
+        }); 
         return
-    }
+    } 
     // If result Found for defination 
     let defination = data[0].shortdef[0]; 
     defBox.innerText = defination; 

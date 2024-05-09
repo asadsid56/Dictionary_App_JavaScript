@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Start Nav -->
+    <nav>
+        <div class="container">
+            <h1>Sid Dictionary</h1>
+        </div>
+    </nav>
+    <!-- End Nav -->
+
+    <!-- Start Input Section -->
+    <section class="container">
+        <h2>Find any existing english word definition :)</h2>
+        <div class="form-wrap">
+            <div class="input-wrap">
+                <input type="text" id="input" placeholder="Type a word">
+                <button id="search">Search</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Input Section -->
+
+    <!-- Start Definition Section -->
+        <section class="data container">
+            <span class="loading">Loading...</span>
+            <p class="def"></p>
+            <div class="audio"></div>
+            <div class="not-found"></div>
+        </section>
+    <!-- End Definition Section -->
+
+
+  <script src="app.js"></script>  
+</body>
+</html>
