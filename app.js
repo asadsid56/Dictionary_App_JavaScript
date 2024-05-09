@@ -52,7 +52,7 @@ async function getData(word) {
         // Create a span
         data.forEach((element) => {
             notfound.insertAdjacentHTML("beforeend",`<span class="suggested">${element}</span>`);
-        }); 
+        });     
         return
     } 
     // If result Found for defination 
